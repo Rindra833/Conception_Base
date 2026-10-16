@@ -12,3 +12,7 @@ Si on ajoute une colonne categorie, on risque d'avoir des valeurs différentes p
 
 **Donnez un exemple de problème concret**
 Si RADO renomme "Plat malagasy" en "Plat Gasy" , on devrait mettre à jour toutes les lignes de la table PLAT, ce qui est sujet à erreurs (risqué).
+
+## ETAPE 03 - Les commandes
+**Où placez-vous la quantité ?**
+On place la quantité dans la table LIGNE_COMMANDE pour qu'on puisse avoir plusieurs plats avec de quantités différentes.
