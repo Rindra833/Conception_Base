@@ -16,3 +16,10 @@ Si RADO renomme "Plat malagasy" en "Plat Gasy" , on devrait mettre à jour toute
 ## ETAPE 03 - Les commandes
 **Où placez-vous la quantité ?**
 On place la quantité dans la table LIGNE_COMMANDE pour qu'on puisse avoir plusieurs plats avec de quantités différentes.
+
+## ETAPE 04 - Les habitués
+**Votre clé étrangère est-elle NOT NULL ?**
+Non, `id_client` pourrait etre NULL car la plupart des clients sont de passage.
+
+**Quelle jointure faut-il pour ne perdre aucune commande ?**
+Il faut une **LEFT JOIN** pour ne perdre aucune commande.
