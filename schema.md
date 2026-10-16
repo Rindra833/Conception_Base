@@ -1,0 +1,1 @@
+**PLAT**(<u>**id_plat**</u>, nom, prix)
